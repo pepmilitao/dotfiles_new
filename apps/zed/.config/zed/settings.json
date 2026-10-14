@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "preferred_line_length": 70,
+  "languages": {
+    "C++": {
+      "prettier": {
+        "allowed": false
+      },
+      "colorize_brackets": true,
+      "format_on_save": "off",
+      "soft_wrap": "none",
+      "tab_size": 4
+    }
+  },
+  "document_folding_ranges": "off",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Colored Zed Icons Theme Dark"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "buffer_font_family": "Iosevka Nerd Font Mono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Dark",
+    "dark": "One Dark"
+  },
+}
