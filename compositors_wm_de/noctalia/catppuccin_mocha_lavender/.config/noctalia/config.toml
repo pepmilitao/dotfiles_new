@@ -1,0 +1,40 @@
+[bar.default]
+border_width = 0.5
+margin_edge = 4
+margin_ends = 15
+position = "left"
+radius = 6
+shadow = false
+
+[hot_corners]
+enabled = true
+
+[shell]
+font_family = "Adwaita Sans"
+popup_shadows = false
+
+[theme]
+community_palette = "Catppuccin Mocha Lavender"
+mode = "dark"
+source = "community"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "gtk3", "gtk4", "kitty", "niri" ]
+    community_ids = [ "spicetify", "obsidian", "zed" ]
+
+[wallpaper]
+directory = "/home/pep/Pictures/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/pep/Pictures/Wallpapers/purple_moon_house.jpeg"
+
+    [wallpaper.last]
+    path = "/home/pep/Pictures/Wallpapers/purple_moon_house.jpeg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/pep/Pictures/Wallpapers/purple_moon_house.jpeg"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/pep/Pictures/Wallpapers/purple_moon_house.jpeg"
+
